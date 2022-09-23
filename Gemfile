@@ -12,6 +12,8 @@ gem 'puma', '~> 5.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'rails_serve_static_assets'
+gem 'rspec-rails', '~> 5.0.0'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
@@ -28,7 +30,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
-  gem 'rspec-rails', '~> 5.0.0'
+  # gem 'rspec-rails', '~> 5.0.0'
 end
 
 group :test do
